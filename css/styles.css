@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #000000;
+    font-size: 20px;
+}
+
+header {
+    background-color: #bc4a0c;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+img{
+    width: 1500px;
+}
+
+.vs{
+    width: 1000px;
+}
+
+.py{
+    width: 1000px;
+}
+
+.ecl{
+    width: 1000px;
+}
+
+.int{
+    width: 1000px;
+}
+
+.gimp{
+    width: 1000px;
+}
+.inc{
+    width: 1000px;
+}
+.blender{
+    width: 1000px;
+}
+.libre{
+    width: 1000px;
+}
+.ever{
+    width: 1000px;
+}
+.thu{
+    width: 1000px;
+}
+.gno{
+    width: 1000px;
+}
+.star{
+    width: 1000px;
+}
+.time{
+    width: 1000px;
+}
+.node{
+    width: 1000px;
+}
+.lamp{
+    width: 1000px;
+}
+.post{
+    width: 1000px;
+}
+.virt{
+    width: 1000px;
+}
+.dock{
+    width: 1000px;
+}
+.qem{
+    width: 1000px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    img,
+    .vs,
+    .py,
+    .ecl,
+    .int,
+    .gimp,
+    .inc,
+    .blender,
+    .libre,
+    .ever,
+    .thu,
+    .gno,
+    .star,
+    .time,
+    .node,
+    .lamp,
+    .post,
+    .virt,
+    .dock,
+    .qem {
+        width: 100%;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    header {
+        font-size: 1.5rem;
+    }
+}

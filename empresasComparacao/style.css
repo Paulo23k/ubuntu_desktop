@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #000000;
+    font-size: 16px;
+}
+
+header {
+    background-color: #bc4a0c;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+    max-width: 100%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.predio{
+    width: 1200px;
+    border-radius: 8px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2em;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+.pq {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    margin-left: 200px;
+}
+
+.pq h1 {
+    margin-bottom: 1em;
+    font-size: 50px;
+}
+
+.pq p {
+    margin-bottom: 1em;
+    font-size: 25px;
+}
+
+.tipos {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    margin-right: 200px;
+}
+
+.tipos h2 {
+    margin-bottom: 1em;
+    font-size: 50px;
+}
+
+.tipos p{
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+
+.emp {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: white;
+    color: #000000;
+}
+
+.emp h1 {
+    font-size: 60px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+
+.container2 div {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.container2 img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.container2 p {
+    font-size: 25px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.container3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.container3 img {
+    width: 150px;
+    height: auto;
+    margin: 0.5em 0;
+}
+
+.container3 h1 {
+    font-size: 30px;
+    margin: 0.5em 0;
+    color: #bc4a0c;
+}
+
+.container3 p {
+    font-size: 20px;
+    margin: 0.5em 0;
+    color: #000000;
+}
+
+.resumo{
+    font-size: 25px;
+    color: #000000;
+}
+
+@media (max-width: 1200px) {
+    .predio {
+        width: 100%;
+        margin: auto;
+    }
+
+    .pq, .tipos {
+        margin: 0;
+    }
+
+    .container3 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .pq, .tipos {
+        flex: 1 1 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .pq h1, .tipos h2 {
+        font-size: 40px;
+    }
+
+    .pq p, .tipos p {
+        font-size: 20px;
+    }
+
+    .container2 div {
+        min-width: 100%;
+    }
+
+    .container3 {
+        flex-direction: column;
+        margin: 0;
+        padding: 1em;
+    }
+
+    .container3 div {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 16px;
+        padding: 0.5em 0;
+    }
+
+    .container {
+        font-size: 18px;
+    }
+
+    .pq h1, .tipos h2 {
+        font-size: 30px;
+    }
+
+    .container3 h1 {
+        font-size: 24px;
+    }
+
+    .container3 p {
+        font-size: 16px;
+    }
+}
+
